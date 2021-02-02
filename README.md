@@ -4,6 +4,7 @@ This repo contains a simple auth system using the flask framework
 
 Installation
 >cd blog/
+
 Create a python virtual enviromnent
 
 Mac and Linux
