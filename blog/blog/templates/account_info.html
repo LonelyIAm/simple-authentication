@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="card content-section-card-info" style="width: 18rem;">
+      <img class="card-img-top" src="{{ image_file }}" width="250" height="250" alt="User Image">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.username }}</h5>
+        <p class="card-text">{{ user.email }}</p>
+        {% if user == current_user %}
+          <a href="{{ url_for('account_update', id=user.id) }}" class="btn btn-outline-primary edit">Edit</a>
+        {% endif %}
+        <a href="{{ url_for('accounts') }}" class="btn btn-outline-primary">Accounts</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-outline-secondary">Logout</a>
+      </div>
+    </div>
+{% endblock content %}

@@ -1,0 +1,80 @@
+.content-section {
+    width: 30%;
+    padding: 20px 30px 5px 30px;
+    margin: 8% auto;
+
+    border-radius: 10px;
+    border: 0.5px solid #E6E6E6;
+
+    background-color: #fff;
+}
+
+
+.content-section-register {
+    width: 30%;
+    padding: 20px 30px 5px 30px;
+    margin: 5% auto;
+
+    border-radius: 10px;
+    border: 0.5px solid #E6E6E6;
+
+    background-color: #fff;
+}
+
+.content-section-card-info {
+    padding: 0;
+    margin: 8% auto;
+
+    border-radius: 10px;
+    border: 0.5px solid #E6E6E6;
+
+    background-color: #fff;
+}
+
+.edit {
+    width: 28%;
+}
+
+.content-section-card-update {
+    padding: 0;
+    margin: 1% auto;
+
+    border-radius: 10px;
+    border: 0.5px solid #E6E6E6;
+
+    background-color: #fff;
+
+}
+
+.m {
+    margin: 10px;
+}
+
+#form {
+    margin: 10px;
+}
+
+
+.text-muted {
+    opacity: 65%;
+}
+
+.submit-btn {
+    width: 100%;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.pagination {
+    margin-left: 200px
+}
+
